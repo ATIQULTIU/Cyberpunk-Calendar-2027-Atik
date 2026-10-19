@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050817">
+  <meta name="description" content="Cyberpunk Calendar 2027 — a neon annual calendar and developer portfolio by MD. Atiqul Islam (Atik).">
+  <title> CALENDAR 2027 — Atik</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="hero shell">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="status-dot"></span> PERSONAL DEV SYSTEM / 2027</p>
+      <h1>CYBERPUNK<br><span>CALENDAR</span></h1>
+      <div class="year-title" aria-label="2027">2027</div>
+      <p class="hero-subtitle">FULL YEAR CALENDAR <span>•</span> MONDAY FIRST</p>
+      <p class="hero-description">Build the future. One day at a time.</p>
+      <div class="hero-actions">
+        <button class="neon-button" id="printBtn" type="button">↗ PRINT / SAVE PDF</button>
+        <a class="text-link" href="#calendar">EXPLORE THE YEAR ↓</a>
+      </div>
+    </div>
+    <aside class="profile-card" aria-label="Developer profile">
+      <div class="portrait-ring">
+        <img id="profilePhoto" src="assets/images/profile.png" alt="Portrait of MD. Atiqul Islam (Atik)">
+      </div>
+      <p class="eyebrow">DEVELOPER PROFILE <span class="cyan">// 001</span></p>
+      <h2>MD. Atiqul Islam <span>(Atik)</span></h2>
+      <p class="role">Software Engineer <b>|</b> Front-End Developer<br>Creative Technologist</p>
+      <div class="profile-links">
+        <a href="mailto:atik.cmttiu1001@gmail.com"><span>✉</span> atik.cmttiu1001@gmail.com</a>
+        <a href="https://github.com/ATIQULTIU" target="_blank" rel="noreferrer"><span>⌘</span> github.com/ATIQULTIU</a>
+        <a href="https://md-atiqul-islam.my.canva.site/" target="_blank" rel="noreferrer"><span>◎</span> Portfolio website</a>
+      </div>
+      <label class="upload-control" for="photoUpload">＋ USE YOUR ORIGINAL PHOTO</label>
+      <input id="photoUpload" type="file" accept="image/*" hidden>
+      <p class="photo-note">Your portrait is included in this project. Use the photo picker to preview another image; to keep it permanently, replace <code>assets/images/profile.png</code> with your preferred portrait.</p>
+      <div class="profile-tags"><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>BUILD / CREATE</span></div>
+    </aside>
+    <div class="hud hud-left" aria-hidden="true"><span>SYS.ONLINE</span><b>01 / 27</b><i></i><i></i><i></i></div>
+    <div class="hud hud-right" aria-hidden="true"><span>LOCAL TIME</span><b id="clock">--:--:--</b><small>CYBER CITY / EARTH</small></div>
+  </header>
+
+  <main class="shell">
+    <section class="section-heading" id="calendar">
+      <div><p class="eyebrow">TIME MATRIX / 365 DAYS</p><h2>THE YEAR <span>AT A GLANCE</span></h2></div>
+      <div class="legend"><span><i class="legend-cyan"></i> WEEKDAY</span><span><i class="legend-pink"></i> SUNDAY</span></div>
+    </section>
+    <div class="calendar-grid" id="calendarGrid" aria-label="2027 annual calendar"></div>
+    <section class="bottom-panel">
+      <div class="bottom-message"><p class="eyebrow">DEVELOPER LOG / 2027</p><h2>CODE. DESIGN.<br><span>INNOVATE.</span></h2><p>Every great build starts with one small step.</p></div>
+      <div class="bottom-contact"><p class="eyebrow">CONNECT WITH ATIK</p><a href="mailto:atik.cmttiu1001@gmail.com">atik.cmttiu1001@gmail.com</a><a href="https://github.com/ATIQULTIU" target="_blank" rel="noreferrer">github.com/ATIQULTIU ↗</a><a href="https://md-atiqul-islam.my.canva.site/" target="_blank" rel="noreferrer">md-atiqul-islam.my.canva.site ↗</a></div>
+      <div class="signature">DESIGNED &amp; DEVELOPED BY<br><strong>MD. Atiqul Islam (Atik)</strong><span>FRONT-END DEVELOPER · CREATIVE TECHNOLOGIST</span></div>
+    </section>
+  </main>
+  <footer class="shell footer"><span>© 2027 ATIK / PERSONAL CREATIVE PROJECT</span><span>KEEP BUILDING <b>◆</b> KEEP EXPLORING</span></footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
